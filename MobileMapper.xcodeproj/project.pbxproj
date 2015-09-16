@@ -14,6 +14,7 @@
 		FD6888C31B67D59000790DA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6888C21B67D59000790DA9 /* Images.xcassets */; };
 		FD6888C61B67D59000790DA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD6888C41B67D59000790DA9 /* LaunchScreen.xib */; };
 		FD6888D21B67D59000790DA9 /* MobileMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6888D11B67D59000790DA9 /* MobileMapperTests.m */; };
+		FD6888DC1B67D5A000790DA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6888DB1B67D5A000790DA9 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FD6888CB1B67D59000790DA9 /* MobileMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6888D01B67D59000790DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD6888D11B67D59000790DA9 /* MobileMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileMapperTests.m; sourceTree = "<group>"; };
+		FD6888DB1B67D5A000790DA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6888DC1B67D5A000790DA9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		FD6888A91B67D59000790DA9 = {
 			isa = PBXGroup;
 			children = (
+				FD6888DB1B67D5A000790DA9 /* MapKit.framework */,
 				FD6888B41B67D59000790DA9 /* MobileMapper */,
 				FD6888CE1B67D59000790DA9 /* MobileMapperTests */,
 				FD6888B31B67D59000790DA9 /* Products */,
